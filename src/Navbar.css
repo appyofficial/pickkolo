@@ -1,0 +1,38 @@
+.Navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 6vh;
+    padding: 5px;
+}
+
+.slider-container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Slider*/
+.slider {
+    width: 350px;
+    margin: 0 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.rc-slider-track {
+    background: transparent;
+}
+
+.rc-slider-rail {
+    height: 10px;
+}
+
+.rc-slider-handle,
+.rc-slider-handle:active,
+.rc-slider-handle:hover,
+.rc-slider-handle:focus {
+    background: green;
+    border: none;
+}
