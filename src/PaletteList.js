@@ -6,7 +6,7 @@ import MiniPalette from './MiniPalette';
 const styles = {
     root: {
         backgroundColor: 'lightblue',
-        height: '100%',
+        height: '100vh',
     },
     container: {
         width: '50%',
